@@ -1,0 +1,11 @@
+<?php
+ class Room extends Controller{
+     
+    public function viewroom(){
+       
+        $this ->viewInnManager("IndexLayout",[
+            'page' => 'Room'
+        ]);
+    }
+}
+?>
